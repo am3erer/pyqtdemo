@@ -8,7 +8,7 @@ class quitapplication(QMainWindow):
         super().__init__(parent)
 
         self.setWindowTitle('退出应用程序')
-        self.resize(400,300)
+        self.resize(400,300)    #设置工作区的尺寸
         self.button1 = QPushButton('退出应用程序')
         #将信号与槽关联
         self.button1.clicked.connect(self.onClickButton)
