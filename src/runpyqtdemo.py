@@ -1,4 +1,4 @@
-import pyqtdemo
+from designer import pyqtdemo
 import sys
 
 from PyQt5.QtWidgets import QApplication,QMainWindow
